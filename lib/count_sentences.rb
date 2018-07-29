@@ -30,4 +30,3 @@ class String
       self.split(/[!.?]/).length
   end
 end
-end
