@@ -27,7 +27,7 @@ class String
   end
 
   def count_sentences
-    if self.start_with?('A')
+    if self.end_with?(/[!.?]/)
       self.split(/[!.?]/).length
     end
   end
