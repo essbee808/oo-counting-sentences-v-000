@@ -28,7 +28,6 @@ class String
 
   def count_sentences
     self.split.length
-    puts self
     binding.pry
   end
 end
